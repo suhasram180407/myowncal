@@ -28,17 +28,17 @@ httpx==0.27.0
 #   CPU only:  pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
 #   CUDA 12.1: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 #   CUDA 11.8: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
-torch>=2.2.0
-torchvision>=0.17.0
+# torch>=2.2.0
+# torchvision>=0.17.0
 
-# ── Data processing ────────────────────────────────────────────────────────────
+# ── Data processing ───────────────────────────────────────────────────────────
 pandas==2.2.2
 numpy==1.26.4
-scikit-learn==1.4.2
+# scikit-learn==1.4.2
 rapidfuzz==3.9.3
 joblib==1.4.2
 Pillow==10.3.0
-opencv-python==4.9.0.80
+# opencv-python==4.9.0.80
 
 # ── Visualization ─────────────────────────────────────────────────────────────
 matplotlib==3.8.4
