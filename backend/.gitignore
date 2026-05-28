@@ -1,0 +1,36 @@
+# Environment & secrets
+.env
+*.env
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Alembic (keep versions, ignore local state)
+alembic/versions/__pycache__/
+
+# Uploads & datasets (large files)
+uploads/
+dataset_images/
+datasets/raw/
+datasets/processed/
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.log
